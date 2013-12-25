@@ -23,7 +23,7 @@ void reverse(char *str)
    char *begin, *end, temp;
  
    length = strlen(str);
- 
+
    begin = str;
    end = str;
  
