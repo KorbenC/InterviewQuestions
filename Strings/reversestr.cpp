@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string.h>
 
 using namespace std;
 
@@ -14,6 +13,19 @@ void reverse(char s[])
         s[j] = c;
     }
 }
+
+int strlen(char s[])
+{
+    int i;
+
+    i = 0;
+    while (s[i] != '\0')
+    {
+        ++i;
+    }
+    return i;
+}
+
 int main()
 {
     char str[100] = "databases and Software";
